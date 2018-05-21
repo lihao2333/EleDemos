@@ -1,0 +1,33 @@
+
+**** Build of configuration Debug for project 11_SPI_SD ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/11_SPI_SD/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/SD_HardWare.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/11_SPI_SD/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/SD_HardWare.d" --obj_directory="src"  "../src/SD_HardWare.c"
+'Finished building: ../src/SD_HardWare.c'
+' '
+'Building file: ../src/SD_SPI.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/11_SPI_SD/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/SD_SPI.d" --obj_directory="src"  "../src/SD_SPI.c"
+"../src/SD_SPI.c", line 314: warning #225-D: function "_nop" declared implicitly
+'Finished building: ../src/SD_SPI.c'
+' '
+'Building file: ../src/USCI_SPI.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/11_SPI_SD/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/USCI_SPI.d" --obj_directory="src"  "../src/USCI_SPI.c"
+'Finished building: ../src/USCI_SPI.c'
+' '
+'Building target: 11_SPI_SD.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"11_SPI_SD.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="11_SPI_SD_linkInfo.xml" --use_hw_mpy=none --rom_model -o "11_SPI_SD.out" "./main.obj" "./src/SD_HardWare.obj" "./src/SD_SPI.obj" "./src/USCI_SPI.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 11_SPI_SD.out'
+' '
+
+**** Build Finished ****

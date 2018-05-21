@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project 22_DCO_Calb_Test ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/22_DCO_Calb_Test/Flash" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../Flash/Flash.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/22_DCO_Calb_Test/Flash" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="Flash/Flash.d" --obj_directory="Flash"  "../Flash/Flash.c"
+'Finished building: ../Flash/Flash.c'
+' '
+'Building target: 22_DCO_Calb_Test.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"22_DCO_Calb_Test.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="22_DCO_Calb_Test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "22_DCO_Calb_Test.out" "./main.obj" "./Flash/Flash.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 22_DCO_Calb_Test.out'
+' '
+
+**** Build Finished ****

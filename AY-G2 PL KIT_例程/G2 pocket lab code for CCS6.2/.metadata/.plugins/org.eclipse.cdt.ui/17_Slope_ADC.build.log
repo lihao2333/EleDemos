@@ -1,0 +1,52 @@
+
+**** Build of configuration Debug for project 17_Slope_ADC ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/ComparatorA.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/ComparatorA.d" --obj_directory="src"  "../src/ComparatorA.c"
+'Finished building: ../src/ComparatorA.c'
+' '
+'Building file: ../src/Slope.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/Slope.d" --obj_directory="src"  "../src/Slope.c"
+'Finished building: ../src/Slope.c'
+' '
+'Building file: ../src/Timer_A3.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/Timer_A3.d" --obj_directory="src"  "../src/Timer_A3.c"
+'Finished building: ../src/Timer_A3.c'
+' '
+'Building file: ../src/TCA6416A/HT1621.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TCA6416A/HT1621.d" --obj_directory="src/TCA6416A"  "../src/TCA6416A/HT1621.c"
+'Finished building: ../src/TCA6416A/HT1621.c'
+' '
+'Building file: ../src/TCA6416A/I2C.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TCA6416A/I2C.d" --obj_directory="src/TCA6416A"  "../src/TCA6416A/I2C.c"
+'Finished building: ../src/TCA6416A/I2C.c'
+' '
+'Building file: ../src/TCA6416A/LCD_128.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TCA6416A/LCD_128.d" --obj_directory="src/TCA6416A"  "../src/TCA6416A/LCD_128.c"
+'Finished building: ../src/TCA6416A/LCD_128.c'
+' '
+'Building file: ../src/TCA6416A/TCA6416A.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TCA6416A/TCA6416A.d" --obj_directory="src/TCA6416A"  "../src/TCA6416A/TCA6416A.c"
+'Finished building: ../src/TCA6416A/TCA6416A.c'
+' '
+'Building target: 17_Slope_ADC.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"17_Slope_ADC.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="17_Slope_ADC_linkInfo.xml" --use_hw_mpy=none --rom_model -o "17_Slope_ADC.out" "./main.obj" "./src/ComparatorA.obj" "./src/Slope.obj" "./src/Timer_A3.obj" "./src/TCA6416A/HT1621.obj" "./src/TCA6416A/I2C.obj" "./src/TCA6416A/LCD_128.obj" "./src/TCA6416A/TCA6416A.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 17_Slope_ADC.out'
+' '
+
+**** Build Finished ****

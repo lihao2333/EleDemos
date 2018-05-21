@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project 8_1_TouchPad_LED ****
+
+"C:\\ti\\ccsv5\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmsp --abi=coffabi --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS5.5/8_1_TouchPad_LED/src" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/TouchIN.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmsp --abi=coffabi --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS5.5/8_1_TouchPad_LED/src" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TouchIN.pp" --obj_directory="src"  "../src/TouchIN.c"
+'Finished building: ../src/TouchIN.c'
+' '
+'Building target: 8_1_TouchPad_LED.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"8_1_TouchPad_LED.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/lib" -i"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include" --reread_libs --warn_sections --xml_link_info="8_1_TouchPad_LED_linkInfo.xml" --rom_model -o "8_1_TouchPad_LED.out"  "./src/TouchIN.obj" "./main.obj" "../lnk_msp430g2553.cmd" -l"libc.a" 
+<Linking>
+'Finished building target: 8_1_TouchPad_LED.out'
+' '
+
+**** Build Finished ****

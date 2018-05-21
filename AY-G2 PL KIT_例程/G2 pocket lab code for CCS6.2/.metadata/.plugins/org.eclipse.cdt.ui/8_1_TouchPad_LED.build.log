@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project 8_1_TouchPad_LED ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/8_1_TouchPad_LED/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/TouchIN.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/8_1_TouchPad_LED/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TouchIN.d" --obj_directory="src"  "../src/TouchIN.c"
+'Finished building: ../src/TouchIN.c'
+' '
+'Building target: 8_1_TouchPad_LED.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"8_1_TouchPad_LED.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="8_1_TouchPad_LED_linkInfo.xml" --use_hw_mpy=none --rom_model -o "8_1_TouchPad_LED.out" "./main.obj" "./src/TouchIN.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 8_1_TouchPad_LED.out'
+' '
+
+**** Build Finished ****

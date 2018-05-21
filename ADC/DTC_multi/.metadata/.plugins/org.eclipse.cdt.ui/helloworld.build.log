@@ -1,0 +1,21 @@
+
+**** Build of configuration Debug for project helloworld ****
+
+/home/Repo/Develop/ccs/ti/ccsv6/utils/bin/gmake -k all 
+Building file: ../blink.c
+Invoking: MSP430 Compiler
+"/home/Repo/Develop/ccs/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/home/Repo/Develop/ccs/ti/ccsv6/ccs_base/msp430/include" --include_path="/home/Repo/Develop/ccs/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --advice:power=all -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="blink.d"  "../blink.c"
+"../blink.c", line 37: warning #112-D: statement is unreachable
+Finished building: ../blink.c
+ 
+Building target: helloworld.out
+Invoking: MSP430 Linker
+"/home/Repo/Develop/ccs/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal -z -m"helloworld.map" --heap_size=80 --stack_size=80 -i"/home/Repo/Develop/ccs/ti/ccsv6/ccs_base/msp430/include" -i"/home/Repo/Develop/ccs/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"/home/Repo/Develop/ccs/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="helloworld_linkInfo.xml" --use_hw_mpy=none --rom_model -o "helloworld.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: helloworld.out
+ 
+
+**** Build Finished ****

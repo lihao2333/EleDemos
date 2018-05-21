@@ -1,0 +1,32 @@
+
+**** Build of configuration Debug for project 11_SPI_SD ****
+
+"C:\\ti\\ccsv5\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmsp --abi=coffabi --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS5.5/11_SPI_SD/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/SD_HardWare.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmsp --abi=coffabi --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS5.5/11_SPI_SD/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="src/SD_HardWare.pp" --obj_directory="src"  "../src/SD_HardWare.c"
+'Finished building: ../src/SD_HardWare.c'
+' '
+'Building file: ../src/SD_SPI.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmsp --abi=coffabi --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS5.5/11_SPI_SD/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="src/SD_SPI.pp" --obj_directory="src"  "../src/SD_SPI.c"
+'Finished building: ../src/SD_SPI.c'
+' '
+'Building file: ../src/USCI_SPI.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmsp --abi=coffabi --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS5.5/11_SPI_SD/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="src/USCI_SPI.pp" --obj_directory="src"  "../src/USCI_SPI.c"
+'Finished building: ../src/USCI_SPI.c'
+' '
+'Building target: 11_SPI_SD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"11_SPI_SD.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/lib" -i"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include" --reread_libs --warn_sections --xml_link_info="11_SPI_SD_linkInfo.xml" --rom_model -o "11_SPI_SD.out"  "./src/USCI_SPI.obj" "./src/SD_SPI.obj" "./src/SD_HardWare.obj" "./main.obj" "../lnk_msp430g2553.cmd" -l"libc.a" 
+<Linking>
+'Finished building target: 11_SPI_SD.out'
+' '
+
+**** Build Finished ****

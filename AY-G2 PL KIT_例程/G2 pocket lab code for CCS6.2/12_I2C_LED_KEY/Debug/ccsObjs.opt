@@ -1,0 +1,1 @@
+"./main.obj" "./hwTCA6416A/TCA6416A.obj" "./hwTCA6416A/USCI_I2C.obj" "../lnk_msp430g2533.cmd" -llibc.a 

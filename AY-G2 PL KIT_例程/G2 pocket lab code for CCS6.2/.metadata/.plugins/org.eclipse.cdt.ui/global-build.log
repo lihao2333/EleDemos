@@ -1,0 +1,867 @@
+
+**** Clean-only build of configuration Debug for project 10_UART_KeyBoard ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "10_UART_KeyBoard.out"  "10_UART_KeyBoard.hex" 
+DEL /F "main.d" "src\UART_Event.d" "src\UART_FIFO.d" "src\UART_Global.d" "src\UART_init.d" 
+DEL /F "main.obj" "src\UART_Event.obj" "src\UART_FIFO.obj" "src\UART_Global.obj" "src\UART_init.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\10_UART_KeyBoard\Debug\10_UART_KeyBoard.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\10_UART_KeyBoard\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\10_UART_KeyBoard\Debug\src\UART_Event.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 10_UART_KeyBoard ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/10_UART_KeyBoard/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/UART_Event.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/10_UART_KeyBoard/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/UART_Event.d" --obj_directory="src"  "../src/UART_Event.c"
+'Finished building: ../src/UART_Event.c'
+' '
+'Building file: ../src/UART_FIFO.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/10_UART_KeyBoard/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/UART_FIFO.d" --obj_directory="src"  "../src/UART_FIFO.c"
+'Finished building: ../src/UART_FIFO.c'
+' '
+'Building file: ../src/UART_Global.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/10_UART_KeyBoard/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/UART_Global.d" --obj_directory="src"  "../src/UART_Global.c"
+'Finished building: ../src/UART_Global.c'
+' '
+'Building file: ../src/UART_init.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/10_UART_KeyBoard/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/UART_init.d" --obj_directory="src"  "../src/UART_init.c"
+'Finished building: ../src/UART_init.c'
+' '
+'Building target: 10_UART_KeyBoard.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"10_UART_KeyBoard.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="10_UART_KeyBoard_linkInfo.xml" --use_hw_mpy=none --rom_model -o "10_UART_KeyBoard.out" "./main.obj" "./src/UART_Event.obj" "./src/UART_FIFO.obj" "./src/UART_Global.obj" "./src/UART_init.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 10_UART_KeyBoard.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 11_SPI_SD ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "11_SPI_SD.out"  "11_SPI_SD.hex" 
+DEL /F "main.d" "src\SD_HardWare.d" "src\SD_SPI.d" "src\USCI_SPI.d" 
+DEL /F "main.obj" "src\SD_HardWare.obj" "src\SD_SPI.obj" "src\USCI_SPI.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\11_SPI_SD\Debug\11_SPI_SD.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\11_SPI_SD\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\11_SPI_SD\Debug\src\SD_HardWare.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 11_SPI_SD ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/11_SPI_SD/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/SD_HardWare.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/11_SPI_SD/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/SD_HardWare.d" --obj_directory="src"  "../src/SD_HardWare.c"
+'Finished building: ../src/SD_HardWare.c'
+' '
+'Building file: ../src/SD_SPI.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/11_SPI_SD/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/SD_SPI.d" --obj_directory="src"  "../src/SD_SPI.c"
+"../src/SD_SPI.c", line 314: warning #225-D: function "_nop" declared implicitly
+'Finished building: ../src/SD_SPI.c'
+' '
+'Building file: ../src/USCI_SPI.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/11_SPI_SD/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/USCI_SPI.d" --obj_directory="src"  "../src/USCI_SPI.c"
+'Finished building: ../src/USCI_SPI.c'
+' '
+'Building target: 11_SPI_SD.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"11_SPI_SD.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="11_SPI_SD_linkInfo.xml" --use_hw_mpy=none --rom_model -o "11_SPI_SD.out" "./main.obj" "./src/SD_HardWare.obj" "./src/SD_SPI.obj" "./src/USCI_SPI.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 11_SPI_SD.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 12_I2C_LED_KEY ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "12_I2C_LED_KEY.out"  "12_I2C_LED_KEY.hex" 
+DEL /F "main.d" "hwTCA6416A\TCA6416A.d" "hwTCA6416A\USCI_I2C.d" 
+DEL /F "main.obj" "hwTCA6416A\TCA6416A.obj" "hwTCA6416A\USCI_I2C.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\12_I2C_LED_KEY\Debug\12_I2C_LED_KEY.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\12_I2C_LED_KEY\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\12_I2C_LED_KEY\Debug\hwTCA6416A\TCA6416A.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 12_I2C_LED_KEY ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/12_I2C_LED_KEY/hwTCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../hwTCA6416A/TCA6416A.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/12_I2C_LED_KEY/hwTCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="hwTCA6416A/TCA6416A.d" --obj_directory="hwTCA6416A"  "../hwTCA6416A/TCA6416A.c"
+'Finished building: ../hwTCA6416A/TCA6416A.c'
+' '
+'Building file: ../hwTCA6416A/USCI_I2C.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/12_I2C_LED_KEY/hwTCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="hwTCA6416A/USCI_I2C.d" --obj_directory="hwTCA6416A"  "../hwTCA6416A/USCI_I2C.c"
+'Finished building: ../hwTCA6416A/USCI_I2C.c'
+' '
+'Building target: 12_I2C_LED_KEY.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"12_I2C_LED_KEY.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="12_I2C_LED_KEY_linkInfo.xml" --use_hw_mpy=none --rom_model -o "12_I2C_LED_KEY.out" "./main.obj" "./hwTCA6416A/TCA6416A.obj" "./hwTCA6416A/USCI_I2C.obj" "../lnk_msp430g2533.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 12_I2C_LED_KEY.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 13_1_SD_Hard_or_Soft_SPI ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "13_1_SD_Hard_or_Soft_SPI.out"  "13_1_SD_Hard_or_Soft_SPI.hex" 
+DEL /F "main.d" "src\SD_HardWare.d" "src\SD_SPI.d" "src\SPI.d" 
+DEL /F "main.obj" "src\SD_HardWare.obj" "src\SD_SPI.obj" "src\SPI.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\13_1_SD_Hard_or_Soft_SPI\13_1_SD_Hard_or_Soft_SPI\Debug\13_1_SD_Hard_or_Soft_SPI.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\13_1_SD_Hard_or_Soft_SPI\13_1_SD_Hard_or_Soft_SPI\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\13_1_SD_Hard_or_Soft_SPI\13_1_SD_Hard_or_Soft_SPI\Debug\src\SD_HardWare.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 13_1_SD_Hard_or_Soft_SPI ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/13_1_SD_Hard_or_Soft_SPI/13_1_SD_Hard_or_Soft_SPI/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/SD_HardWare.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/13_1_SD_Hard_or_Soft_SPI/13_1_SD_Hard_or_Soft_SPI/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/SD_HardWare.d" --obj_directory="src"  "../src/SD_HardWare.c"
+'Finished building: ../src/SD_HardWare.c'
+' '
+'Building file: ../src/SD_SPI.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/13_1_SD_Hard_or_Soft_SPI/13_1_SD_Hard_or_Soft_SPI/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/SD_SPI.d" --obj_directory="src"  "../src/SD_SPI.c"
+"../src/SD_SPI.c", line 310: warning #225-D: function "_nop" declared implicitly
+'Finished building: ../src/SD_SPI.c'
+' '
+'Building file: ../src/SPI.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/13_1_SD_Hard_or_Soft_SPI/13_1_SD_Hard_or_Soft_SPI/src" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/SPI.d" --obj_directory="src"  "../src/SPI.c"
+'Finished building: ../src/SPI.c'
+' '
+'Building target: 13_1_SD_Hard_or_Soft_SPI.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"13_1_SD_Hard_or_Soft_SPI.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="13_1_SD_Hard_or_Soft_SPI_linkInfo.xml" --use_hw_mpy=none --rom_model -o "13_1_SD_Hard_or_Soft_SPI.out" "./main.obj" "./src/SD_HardWare.obj" "./src/SD_SPI.obj" "./src/SPI.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 13_1_SD_Hard_or_Soft_SPI.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 13_2_LED_KEY_I2C_Hard_or_Soft ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "13_2_LED_KEY_I2C_Hard_or_Soft.out"  "13_2_LED_KEY_I2C_Hard_or_Soft.hex" 
+DEL /F "main.d" "src\I2C.d" "src\TCA6416A.d" 
+DEL /F "main.obj" "src\I2C.obj" "src\TCA6416A.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\13_2_LED_KEY_I2C_Hard_or_Soft\Debug\13_2_LED_KEY_I2C_Hard_or_Soft.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\13_2_LED_KEY_I2C_Hard_or_Soft\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\13_2_LED_KEY_I2C_Hard_or_Soft\Debug\src\I2C.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 13_2_LED_KEY_I2C_Hard_or_Soft ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/13_2_LED_KEY_I2C_Hard_or_Soft/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/I2C.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/13_2_LED_KEY_I2C_Hard_or_Soft/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/I2C.d" --obj_directory="src"  "../src/I2C.c"
+'Finished building: ../src/I2C.c'
+' '
+'Building file: ../src/TCA6416A.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/13_2_LED_KEY_I2C_Hard_or_Soft/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TCA6416A.d" --obj_directory="src"  "../src/TCA6416A.c"
+'Finished building: ../src/TCA6416A.c'
+' '
+'Building target: 13_2_LED_KEY_I2C_Hard_or_Soft.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"13_2_LED_KEY_I2C_Hard_or_Soft.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="13_2_LED_KEY_I2C_Hard_or_Soft_linkInfo.xml" --use_hw_mpy=none --rom_model -o "13_2_LED_KEY_I2C_Hard_or_Soft.out" "./main.obj" "./src/I2C.obj" "./src/TCA6416A.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 13_2_LED_KEY_I2C_Hard_or_Soft.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 14_LCD_SelfScan_Hard_or_Soft_I2C ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "14_LCD_SelfScan_Hard_or_Soft_I2C.out"  "14_LCD_SelfScan_Hard_or_Soft_I2C.hex" 
+DEL /F "main.d" "src\HT1621.d" "src\I2C.d" "src\LCD_128.d" "src\TCA6416A.d" 
+DEL /F "main.obj" "src\HT1621.obj" "src\I2C.obj" "src\LCD_128.obj" "src\TCA6416A.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\14_LCD_SelfScan_Hard_or_Soft_I2C\Debug\14_LCD_SelfScan_Hard_or_Soft_I2C.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\14_LCD_SelfScan_Hard_or_Soft_I2C\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\14_LCD_SelfScan_Hard_or_Soft_I2C\Debug\src\HT1621.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 14_LCD_SelfScan_Hard_or_Soft_I2C ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/14_LCD_SelfScan_Hard_or_Soft_I2C/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/HT1621.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/14_LCD_SelfScan_Hard_or_Soft_I2C/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/HT1621.d" --obj_directory="src"  "../src/HT1621.c"
+'Finished building: ../src/HT1621.c'
+' '
+'Building file: ../src/I2C.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/14_LCD_SelfScan_Hard_or_Soft_I2C/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/I2C.d" --obj_directory="src"  "../src/I2C.c"
+'Finished building: ../src/I2C.c'
+' '
+'Building file: ../src/LCD_128.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/14_LCD_SelfScan_Hard_or_Soft_I2C/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/LCD_128.d" --obj_directory="src"  "../src/LCD_128.c"
+'Finished building: ../src/LCD_128.c'
+' '
+'Building file: ../src/TCA6416A.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/14_LCD_SelfScan_Hard_or_Soft_I2C/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TCA6416A.d" --obj_directory="src"  "../src/TCA6416A.c"
+'Finished building: ../src/TCA6416A.c'
+' '
+'Building target: 14_LCD_SelfScan_Hard_or_Soft_I2C.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"14_LCD_SelfScan_Hard_or_Soft_I2C.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="14_LCD_SelfScan_Hard_or_Soft_I2C_linkInfo.xml" --use_hw_mpy=none --rom_model -o "14_LCD_SelfScan_Hard_or_Soft_I2C.out" "./main.obj" "./src/HT1621.obj" "./src/I2C.obj" "./src/LCD_128.obj" "./src/TCA6416A.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 14_LCD_SelfScan_Hard_or_Soft_I2C.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 17_Slope_ADC ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "17_Slope_ADC.out"  "17_Slope_ADC.hex" 
+DEL /F "main.d" "src\ComparatorA.d" "src\Slope.d" "src\Timer_A3.d" "src\TCA6416A\HT1621.d" "src\TCA6416A\I2C.d" "src\TCA6416A\LCD_128.d" "src\TCA6416A\TCA6416A.d" 
+DEL /F "main.obj" "src\ComparatorA.obj" "src\Slope.obj" "src\Timer_A3.obj" "src\TCA6416A\HT1621.obj" "src\TCA6416A\I2C.obj" "src\TCA6416A\LCD_128.obj" "src\TCA6416A\TCA6416A.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\17_Slope_ADC\Debug\17_Slope_ADC.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\17_Slope_ADC\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\17_Slope_ADC\Debug\src\ComparatorA.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\17_Slope_ADC\Debug\src\TCA6416A\HT1621.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 17_Slope_ADC ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/ComparatorA.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/ComparatorA.d" --obj_directory="src"  "../src/ComparatorA.c"
+'Finished building: ../src/ComparatorA.c'
+' '
+'Building file: ../src/Slope.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/Slope.d" --obj_directory="src"  "../src/Slope.c"
+'Finished building: ../src/Slope.c'
+' '
+'Building file: ../src/Timer_A3.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/Timer_A3.d" --obj_directory="src"  "../src/Timer_A3.c"
+'Finished building: ../src/Timer_A3.c'
+' '
+'Building file: ../src/TCA6416A/HT1621.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TCA6416A/HT1621.d" --obj_directory="src/TCA6416A"  "../src/TCA6416A/HT1621.c"
+'Finished building: ../src/TCA6416A/HT1621.c'
+' '
+'Building file: ../src/TCA6416A/I2C.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TCA6416A/I2C.d" --obj_directory="src/TCA6416A"  "../src/TCA6416A/I2C.c"
+'Finished building: ../src/TCA6416A/I2C.c'
+' '
+'Building file: ../src/TCA6416A/LCD_128.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TCA6416A/LCD_128.d" --obj_directory="src/TCA6416A"  "../src/TCA6416A/LCD_128.c"
+'Finished building: ../src/TCA6416A/LCD_128.c'
+' '
+'Building file: ../src/TCA6416A/TCA6416A.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/17_Slope_ADC/src/TCA6416A" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TCA6416A/TCA6416A.d" --obj_directory="src/TCA6416A"  "../src/TCA6416A/TCA6416A.c"
+'Finished building: ../src/TCA6416A/TCA6416A.c'
+' '
+'Building target: 17_Slope_ADC.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"17_Slope_ADC.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="17_Slope_ADC_linkInfo.xml" --use_hw_mpy=none --rom_model -o "17_Slope_ADC.out" "./main.obj" "./src/ComparatorA.obj" "./src/Slope.obj" "./src/Timer_A3.obj" "./src/TCA6416A/HT1621.obj" "./src/TCA6416A/I2C.obj" "./src/TCA6416A/LCD_128.obj" "./src/TCA6416A/TCA6416A.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 17_Slope_ADC.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 19_ADC10_Temperature ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "19_ADC10_Temperature.out"  "19_ADC10_Temperature.hex" 
+DEL /F "main.d" "src\HT1621.d" "src\I2C.d" "src\LCD_128.d" "src\TCA6416A.d" 
+DEL /F "main.obj" "src\HT1621.obj" "src\I2C.obj" "src\LCD_128.obj" "src\TCA6416A.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\19_ADC10_Temperature\Debug\19_ADC10_Temperature.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\19_ADC10_Temperature\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\19_ADC10_Temperature\Debug\src\HT1621.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 19_ADC10_Temperature ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/19_ADC10_Temperature/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/HT1621.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/19_ADC10_Temperature/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/HT1621.d" --obj_directory="src"  "../src/HT1621.c"
+'Finished building: ../src/HT1621.c'
+' '
+'Building file: ../src/I2C.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/19_ADC10_Temperature/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/I2C.d" --obj_directory="src"  "../src/I2C.c"
+'Finished building: ../src/I2C.c'
+' '
+'Building file: ../src/LCD_128.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/19_ADC10_Temperature/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/LCD_128.d" --obj_directory="src"  "../src/LCD_128.c"
+'Finished building: ../src/LCD_128.c'
+' '
+'Building file: ../src/TCA6416A.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/19_ADC10_Temperature/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TCA6416A.d" --obj_directory="src"  "../src/TCA6416A.c"
+'Finished building: ../src/TCA6416A.c'
+' '
+'Building target: 19_ADC10_Temperature.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"19_ADC10_Temperature.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="19_ADC10_Temperature_linkInfo.xml" --use_hw_mpy=none --rom_model -o "19_ADC10_Temperature.out" "./main.obj" "./src/HT1621.obj" "./src/I2C.obj" "./src/LCD_128.obj" "./src/TCA6416A.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 19_ADC10_Temperature.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 20_Sin_Gen_and_Sample ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "20_Sin_Gen_and_Sample.out"  "20_Sin_Gen_and_Sample.hex" 
+DEL /F "main.d" "src\TA_PWM.d" 
+DEL /F "main.obj" "src\TA_PWM.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\20_Sin_Gen_and_Sample\Debug\20_Sin_Gen_and_Sample.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\20_Sin_Gen_and_Sample\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\20_Sin_Gen_and_Sample\Debug\src\TA_PWM.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 20_Sin_Gen_and_Sample ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/20_Sin_Gen_and_Sample/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/TA_PWM.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/20_Sin_Gen_and_Sample/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TA_PWM.d" --obj_directory="src"  "../src/TA_PWM.c"
+'Finished building: ../src/TA_PWM.c'
+' '
+'Building target: 20_Sin_Gen_and_Sample.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"20_Sin_Gen_and_Sample.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="20_Sin_Gen_and_Sample_linkInfo.xml" --use_hw_mpy=none --rom_model -o "20_Sin_Gen_and_Sample.out" "./main.obj" "./src/TA_PWM.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 20_Sin_Gen_and_Sample.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 21_1_DAC_AWG ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "21_1_DAC_AWG.out"  "21_1_DAC_AWG.hex" 
+DEL /F "main.d" "src\DAC8411.d" 
+DEL /F "main.obj" "src\DAC8411.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\21_1_DAC_AWG\Debug\21_1_DAC_AWG.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\21_1_DAC_AWG\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\21_1_DAC_AWG\Debug\src\DAC8411.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 21_1_DAC_AWG ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_1_DAC_AWG/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/DAC8411.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_1_DAC_AWG/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/DAC8411.d" --obj_directory="src"  "../src/DAC8411.c"
+'Finished building: ../src/DAC8411.c'
+' '
+'Building target: 21_1_DAC_AWG.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"21_1_DAC_AWG.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="21_1_DAC_AWG_linkInfo.xml" --use_hw_mpy=none --rom_model -o "21_1_DAC_AWG.out" "./main.obj" "./src/DAC8411.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 21_1_DAC_AWG.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 21_2_TF_Audio ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "21_2_TF_Audio.out"  "21_2_TF_Audio.hex" 
+DEL /F "main.d" "src\DAC8411.d" "src\softFIFO.d" "src\SD\SD_HardWare.d" "src\SD\SD_SPI.d" "src\SD\SPI.d" 
+DEL /F "main.obj" "src\DAC8411.obj" "src\softFIFO.obj" "src\SD\SD_HardWare.obj" "src\SD\SD_SPI.obj" "src\SD\SPI.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\21_2_TF_Audio\Debug\21_2_TF_Audio.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\21_2_TF_Audio\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\21_2_TF_Audio\Debug\src\DAC8411.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\21_2_TF_Audio\Debug\src\SD\SD_HardWare.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 21_2_TF_Audio ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_2_TF_Audio/src" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_2_TF_Audio/src/SD" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/DAC8411.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_2_TF_Audio/src" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_2_TF_Audio/src/SD" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/DAC8411.d" --obj_directory="src"  "../src/DAC8411.c"
+'Finished building: ../src/DAC8411.c'
+' '
+'Building file: ../src/softFIFO.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_2_TF_Audio/src" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_2_TF_Audio/src/SD" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/softFIFO.d" --obj_directory="src"  "../src/softFIFO.c"
+'Finished building: ../src/softFIFO.c'
+' '
+'Building file: ../src/SD/SD_HardWare.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_2_TF_Audio/src" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_2_TF_Audio/src/SD" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/SD/SD_HardWare.d" --obj_directory="src/SD"  "../src/SD/SD_HardWare.c"
+'Finished building: ../src/SD/SD_HardWare.c'
+' '
+'Building file: ../src/SD/SD_SPI.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_2_TF_Audio/src" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_2_TF_Audio/src/SD" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/SD/SD_SPI.d" --obj_directory="src/SD"  "../src/SD/SD_SPI.c"
+"../src/SD/SD_SPI.c", line 267: warning #225-D: function "_nop" declared implicitly
+"../src/SD/SD_SPI.c", line 298: warning #225-D: function "_nop" declared implicitly
+'Finished building: ../src/SD/SD_SPI.c'
+' '
+'Building file: ../src/SD/SPI.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_2_TF_Audio/src" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/21_2_TF_Audio/src/SD" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/SD/SPI.d" --obj_directory="src/SD"  "../src/SD/SPI.c"
+'Finished building: ../src/SD/SPI.c'
+' '
+'Building target: 21_2_TF_Audio.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"21_2_TF_Audio.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="21_2_TF_Audio_linkInfo.xml" --use_hw_mpy=none --rom_model -o "21_2_TF_Audio.out" "./main.obj" "./src/DAC8411.obj" "./src/softFIFO.obj" "./src/SD/SD_HardWare.obj" "./src/SD/SD_SPI.obj" "./src/SD/SPI.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 21_2_TF_Audio.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 22_DCO_Calb_Test ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "22_DCO_Calb_Test.out"  "22_DCO_Calb_Test.hex" 
+DEL /F "main.d" "Flash\Flash.d" 
+DEL /F "main.obj" "Flash\Flash.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\22_DCO_Calb_Test\Debug\22_DCO_Calb_Test.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\22_DCO_Calb_Test\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\22_DCO_Calb_Test\Debug\Flash\Flash.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 22_DCO_Calb_Test ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/22_DCO_Calb_Test/Flash" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../Flash/Flash.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/22_DCO_Calb_Test/Flash" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="Flash/Flash.d" --obj_directory="Flash"  "../Flash/Flash.c"
+'Finished building: ../Flash/Flash.c'
+' '
+'Building target: 22_DCO_Calb_Test.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"22_DCO_Calb_Test.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="22_DCO_Calb_Test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "22_DCO_Calb_Test.out" "./main.obj" "./Flash/Flash.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 22_DCO_Calb_Test.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 4_KEY_LED_Change_DCO ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "4_KEY_LED_Change_DCO.out"  "4_KEY_LED_Change_DCO.hex" 
+DEL /F "main.d" 
+DEL /F "main.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\4_KEY_LED_Change_DCO\Debug\4_KEY_LED_Change_DCO.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\4_KEY_LED_Change_DCO\Debug\main.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 4_KEY_LED_Change_DCO ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: 4_KEY_LED_Change_DCO.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"4_KEY_LED_Change_DCO.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="4_KEY_LED_Change_DCO_linkInfo.xml" --use_hw_mpy=none --rom_model -o "4_KEY_LED_Change_DCO.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 4_KEY_LED_Change_DCO.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 5_Interrupt_Key_LED ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "5_Interrupt_Key_LED.out"  "5_Interrupt_Key_LED.hex" 
+DEL /F "main.d" 
+DEL /F "main.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\5_Interrupt_Key_LED\Debug\5_Interrupt_Key_LED.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\5_Interrupt_Key_LED\Debug\main.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 5_Interrupt_Key_LED ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: 5_Interrupt_Key_LED.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"5_Interrupt_Key_LED.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="5_Interrupt_Key_LED_linkInfo.xml" --use_hw_mpy=none --rom_model -o "5_Interrupt_Key_LED.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 5_Interrupt_Key_LED.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 6_PWM_LED ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "6_PWM_LED.out"  "6_PWM_LED.hex" 
+DEL /F "main.d" "src\TA_PWM.d" 
+DEL /F "main.obj" "src\TA_PWM.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\6_PWM_LED\Debug\6_PWM_LED.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\6_PWM_LED\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\6_PWM_LED\Debug\src\TA_PWM.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 6_PWM_LED ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/6_PWM_LED/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/TA_PWM.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/6_PWM_LED/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TA_PWM.d" --obj_directory="src"  "../src/TA_PWM.c"
+'Finished building: ../src/TA_PWM.c'
+' '
+'Building target: 6_PWM_LED.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"6_PWM_LED.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="6_PWM_LED_linkInfo.xml" --use_hw_mpy=none --rom_model -o "6_PWM_LED.out" "./main.obj" "./src/TA_PWM.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 6_PWM_LED.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 7_1_Breath_Lamp ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "7_1_Breath_Lamp.out"  "7_1_Breath_Lamp.hex" 
+DEL /F "main.d" "src\Breath_Lamp_Event.d" "src\Breath_Lamp_Global.d" "src\TA_PWM.d" 
+DEL /F "main.obj" "src\Breath_Lamp_Event.obj" "src\Breath_Lamp_Global.obj" "src\TA_PWM.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\7_1_Breath_Lamp\Debug\7_1_Breath_Lamp.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\7_1_Breath_Lamp\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\7_1_Breath_Lamp\Debug\src\Breath_Lamp_Event.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 7_1_Breath_Lamp ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/7_1_Breath_Lamp/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/Breath_Lamp_Event.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/7_1_Breath_Lamp/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/Breath_Lamp_Event.d" --obj_directory="src"  "../src/Breath_Lamp_Event.c"
+'Finished building: ../src/Breath_Lamp_Event.c'
+' '
+'Building file: ../src/Breath_Lamp_Global.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/7_1_Breath_Lamp/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/Breath_Lamp_Global.d" --obj_directory="src"  "../src/Breath_Lamp_Global.c"
+'Finished building: ../src/Breath_Lamp_Global.c'
+' '
+'Building file: ../src/TA_PWM.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/7_1_Breath_Lamp/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TA_PWM.d" --obj_directory="src"  "../src/TA_PWM.c"
+'Finished building: ../src/TA_PWM.c'
+' '
+'Building target: 7_1_Breath_Lamp.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"7_1_Breath_Lamp.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="7_1_Breath_Lamp_linkInfo.xml" --use_hw_mpy=none --rom_model -o "7_1_Breath_Lamp.out" "./main.obj" "./src/Breath_Lamp_Event.obj" "./src/Breath_Lamp_Global.obj" "./src/TA_PWM.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 7_1_Breath_Lamp.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 7_2_Timer_Key_LED ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "7_2_Timer_Key_LED.out"  "7_2_Timer_Key_LED.hex" 
+DEL /F "main.d" 
+DEL /F "main.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\7_2_Timer_Key_LED\Debug\7_2_Timer_Key_LED.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\7_2_Timer_Key_LED\Debug\main.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 7_2_Timer_Key_LED ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: 7_2_Timer_Key_LED.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"7_2_Timer_Key_LED.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="7_2_Timer_Key_LED_linkInfo.xml" --use_hw_mpy=none --rom_model -o "7_2_Timer_Key_LED.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 7_2_Timer_Key_LED.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 7_3_Key_Long_Short_Mealy ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "7_3_Key_Long_Short_Mealy.out"  "7_3_Key_Long_Short_Mealy.hex" 
+DEL /F "main.d" 
+DEL /F "main.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\7_3_Key_Long_Short_Mealy\Debug\7_3_Key_Long_Short_Mealy.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\7_3_Key_Long_Short_Mealy\Debug\main.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 7_3_Key_Long_Short_Mealy ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: 7_3_Key_Long_Short_Mealy.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"7_3_Key_Long_Short_Mealy.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="7_3_Key_Long_Short_Mealy_linkInfo.xml" --use_hw_mpy=none --rom_model -o "7_3_Key_Long_Short_Mealy.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 7_3_Key_Long_Short_Mealy.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 7_4_Key_Long_Short_Moore ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "7_4_Key_Long_Short_Moore.out"  "7_4_Key_Long_Short_Moore.hex" 
+DEL /F "main.d" 
+DEL /F "main.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\7_4_Key_Long_Short_Moore\Debug\7_4_Key_Long_Short_Moore.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\7_4_Key_Long_Short_Moore\Debug\main.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 7_4_Key_Long_Short_Moore ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: 7_4_Key_Long_Short_Moore.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"7_4_Key_Long_Short_Moore.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="7_4_Key_Long_Short_Moore_linkInfo.xml" --use_hw_mpy=none --rom_model -o "7_4_Key_Long_Short_Moore.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 7_4_Key_Long_Short_Moore.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 8_1_TouchPad_LED ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "8_1_TouchPad_LED.out"  "8_1_TouchPad_LED.hex" 
+DEL /F "main.d" "src\TouchIN.d" 
+DEL /F "main.obj" "src\TouchIN.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\8_1_TouchPad_LED\Debug\8_1_TouchPad_LED.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\8_1_TouchPad_LED\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\8_1_TouchPad_LED\Debug\src\TouchIN.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 8_1_TouchPad_LED ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/8_1_TouchPad_LED/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/TouchIN.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/8_1_TouchPad_LED/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TouchIN.d" --obj_directory="src"  "../src/TouchIN.c"
+'Finished building: ../src/TouchIN.c'
+' '
+'Building target: 8_1_TouchPad_LED.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"8_1_TouchPad_LED.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="8_1_TouchPad_LED_linkInfo.xml" --use_hw_mpy=none --rom_model -o "8_1_TouchPad_LED.out" "./main.obj" "./src/TouchIN.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 8_1_TouchPad_LED.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project 8_2_TouchPad_Long_Short_Mealy ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "8_2_TouchPad_Long_Short_Mealy.out"  "8_2_TouchPad_Long_Short_Mealy.hex" 
+DEL /F "main.d" "src\TouchIN.d" 
+DEL /F "main.obj" "src\TouchIN.obj" 
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\8_2_TouchPad_Long_Short_Mealy\Debug\8_2_TouchPad_Long_Short_Mealy.out
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\8_2_TouchPad_Long_Short_Mealy\Debug\main.obj
+Could Not Find C:\Users\SAPL108\Desktop\G2 pocket lab code for CCS6.2\8_2_TouchPad_Long_Short_Mealy\Debug\src\TouchIN.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 8_2_TouchPad_Long_Short_Mealy ****
+
+"C:\\software\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/8_2_TouchPad_Long_Short_Mealy/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../src/TouchIN.c'
+'Invoking: MSP430 Compiler'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/software/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/SAPL108/Desktop/G2 pocket lab code for CCS6.2/8_2_TouchPad_Long_Short_Mealy/src" --include_path="C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="src/TouchIN.d" --obj_directory="src"  "../src/TouchIN.c"
+'Finished building: ../src/TouchIN.c'
+' '
+'Building target: 8_2_TouchPad_Long_Short_Mealy.out'
+'Invoking: MSP430 Linker'
+"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --abi=eabi --printf_support=minimal -z -m"8_2_TouchPad_Long_Short_Mealy.map" --heap_size=80 --stack_size=80 -i"C:/software/ti/ccsv6/ccs_base/msp430/include" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/lib" -i"C:/software/ti/ccsv6/tools/compiler/msp430_15.12.3.LTS/include" --reread_libs --warn_sections --xml_link_info="8_2_TouchPad_Long_Short_Mealy_linkInfo.xml" --use_hw_mpy=none --rom_model -o "8_2_TouchPad_Long_Short_Mealy.out" "./main.obj" "./src/TouchIN.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: 8_2_TouchPad_Long_Short_Mealy.out'
+' '
+
+**** Build Finished ****
