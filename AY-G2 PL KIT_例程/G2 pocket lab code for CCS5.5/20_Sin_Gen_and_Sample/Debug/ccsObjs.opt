@@ -1,1 +1,0 @@
-"./src/TA_PWM.obj" "./main.obj" "../lnk_msp430g2553.cmd" -l"libc.a" 

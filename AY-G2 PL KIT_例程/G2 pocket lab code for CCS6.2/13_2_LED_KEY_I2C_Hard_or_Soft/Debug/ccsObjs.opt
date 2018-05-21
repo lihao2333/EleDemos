@@ -1,1 +1,0 @@
-"./main.obj" "./src/I2C.obj" "./src/TCA6416A.obj" "../lnk_msp430g2553.cmd" -llibc.a 
